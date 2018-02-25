@@ -2,14 +2,10 @@ extends KinematicBody
 
 
 const FLOOR = Vector3(0, 1, 0)
-const HALF_PI = PI * .5
 
 export var move_dead_zone = Vector2(.013, .013)
 export var speed = 60
 
-var aerial_movement = Vector3()
-var gravity = Vector3()
-var strafing = Vector3()
 var floor_normal = Vector3(0, 1, 0)
 
 var on_ground = false
